@@ -1,0 +1,28 @@
+.header{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(249, 98, 29);
+  padding-top: 30px;
+}
+
+.left-section{
+  padding-left: 20px;
+}
+
+.right-section{
+  margin-right: 30px;
+}
+
+.get-early-access-button{
+  padding: 10px 20px 10px 20px;
+  border-radius: 500px;
+  border: 2px solid #7636FF;
+  font-family: Proxima Nova Extra Wide;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #52FFD4;
+  cursor: pointer;
+}

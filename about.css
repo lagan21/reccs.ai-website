@@ -1,0 +1,148 @@
+.black-background{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #121824;
+  background-image: url(assets/shapes-1.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+.personal-dance-coach-heading{
+  padding-top: 250px;
+  padding-bottom: 20px;
+}
+
+.personal-dance-coach-text{
+  font-size: 40px;
+  color: #BAFE83;
+  text-align: center;
+}
+
+.AI-to-improve-dance-subtitle{
+  padding-bottom: 70px;
+}
+
+.AI-to-improve-dance-text{
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+.demo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo-background{
+  border-radius: 18px;
+  background: linear-gradient(152deg, rgba(255, 255, 255, 0.30) 0.74%, rgba(255, 255, 255, 0.09) 95.79%);
+  backdrop-filter: blur(14.378453254699707px);
+  padding: 60px 24px 100px 24px;
+}
+
+.demo-title-text{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  color: white;
+}
+
+.demo-video{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.demo-video-image{
+  width: 860px;
+  border-radius: 8px;
+}
+
+.demo-more-like-this-text{
+  font-size: 32px;
+  color: white;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+.demo-more-content{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+
+.more-like-this-image{
+  width: 200px;
+  margin: 30px 24px 0px 0px;
+  border-radius: 8px;
+}
+
+.dance-with-reccs-heading{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.dance-with-reccs-text{
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+  color: rgb(249, 98, 29);
+}
+
+.info-card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 160px;
+}
+
+.info-card{
+  display: flex;
+  flex-direction: row;
+  border-radius: 16px;
+  background: linear-gradient(107deg, rgba(255, 255, 255, 0.50) -1.09%, rgba(255, 255, 255, 0.00) 102.76%);
+  backdrop-filter: blur(20px);
+}
+
+.info-card-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 70px;
+}
+
+.info-card-content-heading{
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.info-card-content-heading-text{
+  color: #BAFE83;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.info-card-content-subheading-text{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  color: white;
+}
+
+.info-card-picture{
+  margin: 70px;
+  height: 336px;
+  width: 336px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+

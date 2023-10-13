@@ -1,0 +1,95 @@
+.science-container{
+    background-color: #BAFE83;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.science-behind-dance-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.science-behind-dance-text{
+    font-size: 100px;
+    font-weight: 700;
+    color: #127AFF;
+    flex: 1;
+    padding-top: 270px;
+    text-align: center;
+    text-shadow:
+    #5200FF,
+    -3px -3px 0 #5200FF, /* Top-left offset */
+    1px -1px 0 #5200FF,  /* Top-right offset */
+    -1px 1px 0 #5200FF,  /* Bottom-left offset */
+    1px 1px 0 #5200FF;   /* Bottom-right offset */
+  
+    /*
+    &::before {
+      content: "The Science Behind Dance";
+      position: absolute;
+      top: 4880px;
+      left: 5px;
+      color: transparent;
+      -webkit-text-stroke: 1px #5200FF;
+      pointer-events: none;
+    }*/
+}
+
+.science-container{
+    position: relative;
+}
+
+.hearts-container{
+    position: absolute;
+    top: -90px;
+}
+
+.science-behind-dance--description-text{
+    text-align: center;
+    font-weight: 600;
+    line-height: 150%;  
+    color: #121824;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.science-info-cards-container-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;  
+    margin-right: 100px;
+}
+
+.science-card-background{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background: linear-gradient(156deg, #FFF 3.02%, rgba(18, 24, 36, 0.00) 105.44%);
+    justify-content: center;
+}
+
+.science-card-image-container{
+    padding: 30px 30px 30px 30px;
+}
+
+.science-card-image{
+    border-radius: 6px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.science-card-text-container{
+    padding: 0px 30px 30px 30px;
+}
+
+.science-card-text{
+    font-weight: 500;
+    line-height: 170%;
+    font-size: 16px;
+}
+
+

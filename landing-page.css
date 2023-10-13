@@ -1,0 +1,60 @@
+.orange-background{
+  background-color: rgb(249, 98, 29);
+  margin-top: 0px;
+  background-image: url(assets/comingsoon-dance-tape.svg);
+  background-repeat: no-repeat;
+
+}
+
+.reccs-landing-page{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.reccs-title{
+  font-family: Proxima Nova Extra Wide;
+  font-size: 300px;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+
+  flex: 1;
+
+  &::before {
+    content: "RECCS";
+    position: absolute;
+    top: 135px;
+    left: 5px;
+    color: transparent;
+    -webkit-text-stroke: 3px black;
+    pointer-events: none;
+  }
+}
+
+.landing-page-demo-description{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+}
+
+.landing-page-description{
+  width: 725px;
+  /*background-color: lightblue;*/
+  justify-content: center;
+  padding-top: 50px;
+  margin-right: 120px;
+}
+
+.landing-page-description-text{
+  font-size: 32px;
+  text-align: right;
+  line-height: 170%; /* 54.4px */
+  letter-spacing: -0.352px;
+}
+
+.landing-page-graphic{
+  font-size: 200px;
+  height: 450px;
+}

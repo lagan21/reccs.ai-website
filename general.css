@@ -1,0 +1,17 @@
+p{
+  /*font-family: proxima-nova-extra-wide, sans-serif;
+  font-style: normal;*/
+  font-family: Proxima Nova Extra Wide;
+  /*font-family: arial !important; Proxima Nova Extra Wide;*/ 
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+body{
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.page-container{
+  padding-top: 0px; /* Add your desired padding here */
+}
